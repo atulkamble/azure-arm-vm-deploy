@@ -11,4 +11,5 @@ or
 ```
 az group create --name MyResourceGroup --location eastus
 az deployment group create --resource-group MyResourceGroup --template-file azuredeploy.json --parameters vmName=myVM adminUsername=atul adminPassword=Ethans@123
+az group delete --name MyResourceGroup --yes --no-wait
 ```
